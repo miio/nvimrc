@@ -48,3 +48,7 @@ let g:lightline = {
 [[plugins]] # git操作
 repo = 'lambdalisue/vim-gita'
 on_cmd = 'Gita'
+
+[[plugins]] # ファイラー
+repo = 'Shougo/unite.vim'
+on_cmd = 'Unite'
